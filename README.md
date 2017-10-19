@@ -1,6 +1,8 @@
 # BioSphere-OGC
 Old android game project from 2013, inspired by terraria.
 
+Why OGC? honestly, I don't remember...
+
 # ./APK
 exported debugging APK for each step of the way. 
 
