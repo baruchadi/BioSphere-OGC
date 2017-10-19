@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ProjectOGC/assets/textures/player_sprite.png&apos; to &apos;player_sprite1.png&apos;" description="Rename resource &apos;player_sprite.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="assets/textures/player_sprite.png" name="player_sprite1.png" stamp="1372973200400" updateReferences="true"/>
+</session>

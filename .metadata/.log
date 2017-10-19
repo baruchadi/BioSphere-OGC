@@ -1,0 +1,198 @@
+!SESSION 2013-07-03 20:54:14.263 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-07-03 20:57:47.564
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/ProjectOGC/res' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:326)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:200)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:265)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:248)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$7.run(Sdk.java:1433)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2013-07-03 20:57:47.591
+!MESSAGE Resource '/ProjectOGC/res' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 4 2013-07-03 20:57:53.430
+!MESSAGE Exception occurred while saving project preferences: /ProjectOGC/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/media/baruch/programs/android/mainWorkSpace/ProjectOGC/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$3.run(ProjectPreferences.java:633)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:648)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2885)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:454)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:363)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$1$1.run(Sdk.java:1119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2013-07-03 20:57:53.431
+!MESSAGE A resource already exists on disk '/media/baruch/programs/android/mainWorkSpace/ProjectOGC/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2013-07-03 20:57:53.434
+!MESSAGE Exception occurred while saving project preferences: /ProjectOGC/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/media/baruch/programs/android/mainWorkSpace/ProjectOGC/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$3.run(ProjectPreferences.java:633)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:648)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2885)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:456)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:363)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$1$1.run(Sdk.java:1119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2013-07-03 20:57:53.435
+!MESSAGE A resource already exists on disk '/media/baruch/programs/android/mainWorkSpace/ProjectOGC/.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2013-07-03 20:57:53.438
+!MESSAGE Exception occurred while saving project preferences: /ProjectOGC/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk '/media/baruch/programs/android/mainWorkSpace/ProjectOGC/.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$3.run(ProjectPreferences.java:633)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:648)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.flush(EclipsePreferences.java:352)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:399)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2885)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:458)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:363)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$1$1.run(Sdk.java:1119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2013-07-03 20:57:53.438
+!MESSAGE A resource already exists on disk '/media/baruch/programs/android/mainWorkSpace/ProjectOGC/.settings'.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2013-07-04 10:56:54.779
+!MESSAGE Error during shutdown
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: null argument:
+	at org.eclipse.core.runtime.Assert.isNotNull(Assert.java:85)
+	at org.eclipse.core.runtime.Assert.isNotNull(Assert.java:73)
+	at org.eclipse.core.internal.events.ResourceChangeListenerList.remove(ResourceChangeListenerList.java:146)
+	at org.eclipse.core.internal.events.NotificationManager.removeListener(NotificationManager.java:305)
+	at org.eclipse.core.internal.resources.Workspace.removeResourceChangeListener(Workspace.java:1934)
+	at org.eclipse.wst.server.core.internal.ResourceManager.shutdownImpl(ResourceManager.java:367)
+	at org.eclipse.wst.server.core.internal.ResourceManager.shutdown(ResourceManager.java:313)
+	at org.eclipse.wst.server.core.internal.ServerPlugin.stop(ServerPlugin.java:367)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:501)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:550)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1097)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:597)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:690)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:588)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:415)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1384)
+!SESSION 2013-07-04 17:22:09.200 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.7.0_11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-07-04 17:22:31.407
+!MESSAGE projectOpenedWithWorkspace: failed to find manifest package for project ProjectOGC
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-07-04 17:22:36.857
+!MESSAGE fileChanged: failed to find manifest package for project ProjectOGC
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2013-07-04 17:22:37.923
+!MESSAGE Fatal error: No API database found at null
+!SESSION 2013-07-04 17:34:17.139 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-07-04 17:34:51.638
+!MESSAGE projectOpenedWithWorkspace: failed to find manifest package for project ProjectOGC
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2013-07-04 17:34:54.157
+!MESSAGE DDMS files not found: /home/baruch/Desktop/P:\android\androidSDK/platform-tools/adb /home/baruch/Desktop/P:\android\androidSDK/tools/hprof-conv /home/baruch/Desktop/P:\android\androidSDK/tools/traceview 
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-07-04 17:34:55.867
+!MESSAGE fileChanged: failed to find manifest package for project ProjectOGC
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2013-07-04 17:34:55.985
+!MESSAGE Fatal error: No API database found at null
+!SESSION 2013-07-05 13:38:44.374 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.7.0_11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-07-05 13:39:27.307
+!MESSAGE projectOpenedWithWorkspace: failed to find manifest package for project ProjectOGC
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2013-07-05 13:39:31.050
+!MESSAGE DDMS files not found: P:\home\baruch\sdk\platform-tools\adb.exe P:\home\baruch\sdk\tools\hprof-conv.exe P:\home\baruch\sdk\tools\traceview.bat 
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2013-07-05 13:39:35.554
+!MESSAGE Fatal error: No API database found at null
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-07-05 13:39:35.564
+!MESSAGE fileChanged: failed to find manifest package for project ProjectOGC
+!SESSION 2013-10-23 23:25:27.572 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.7.0_11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data P:\android\mainWorkSpace -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-10-23 23:25:29.023
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2013-10-23 23:25:35.574
+!MESSAGE Fatal error: No API database found at null
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2013-10-23 23:26:28.554
+!MESSAGE Fatal error: No API database found at null
+!SESSION 2017-09-08 20:42:56.428 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-09-08 20:43:31.061
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2017-09-08 20:45:01.789
+!MESSAGE DDMS files not found: C:\Users\Baruch\AppData\Local\Android\sdk\tools\hprof-conv.exe C:\Users\Baruch\AppData\Local\Android\sdk\tools\traceview.bat 
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2017-09-08 20:45:01.822
+!MESSAGE DDMS files not found: C:\Users\Baruch\AppData\Local\Android\sdk\tools\hprof-conv.exe C:\Users\Baruch\AppData\Local\Android\sdk\tools\traceview.bat 

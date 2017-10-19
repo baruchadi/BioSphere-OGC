@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BioSphere</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="dummy_button">Dummy Button</string>
+    
+    <string name="newGame">New Game</string>
+    
+    <string name="loadGame">Load Game</string>
+    
+    <string name="exitGame">Exit</string>
+    
+    <string name="Ver">DEVELOPER VERSION 0.0.5</string>
+
+</resources>
